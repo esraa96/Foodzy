@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+*{
+    box-sizing: border-box;
+}
+nav{
+    /* width: 100%; */
+    /* height: auto; */
+    /* padding: 10px 0px; */
+    background-color: white;
+    border: 1px solid white;
+}
+/* nav ul{
+    padding: 0;
+    margin-left: 10rem;
+} */
+nav ul li:hover a{
+    color: #CBB777;
+}
+/* nav .icon{
+    margin-left: 2rem;
+} */
+    
+
+.hero {
+    background: url('./img/food-facebook-cover-14.psd.png') no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+    color: white;
+    overflow: hidden;
+  }
+  .discount-circle {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+  }
+  .spaghetti-img {
+    width: 450px;
+    max-width: 100%;
+  }
+  @media (max-width: 768px) {
+    .spaghetti-img {
+      width: 300px;
+    }
+    .deal-badge {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        background: red;
+        color: #fff;
+        padding: 5px 10px;
+        border-radius: 50px;
+        font-size: 0.8rem;
+    }
+
+    .section-title {
+        font-weight: bold;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .card img {
+        object-fit: cover;
+        height: 200px;
+    }
+
+
+
+    .img-fluid {
+        width: 1300px;
+        height: 743px;
+        flex-shrink: 0;
+        aspect-ratio: 1300/743;
+    }   .discount-circle {
+      width: 80px;
+      height: 80px;
+    }
+  }
+
+
+  @media only screen and (max-width:992px){
+    nav ul{
+        padding: 0;
+        margin-left: 0rem;
+    }    
+}
+
+
+
+
+
+
+
+ #meal{
+    background-image: url(./rrrrrrffrdr.png);
+ }
+
+
+
+
+
+
+
+ 
