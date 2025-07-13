@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow ">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
         <div class="container-fluid  ">
             <div class="d-flex align-items-center justify-content-between">
               <div class="icon d-flex align-items-center">
@@ -93,12 +93,12 @@
           
       </nav>
     
-      <div class="container">
+      <div class="container-fluid px-3 px-md-4">
         <div class="row align-items-center">
           
           <!-- Logo Section -->
-          <div class="col-12 col-sm-6 col-md-4 col-lg-2 mt-3">
-            <div class="d-flex align-items-center">
+          <div class="col-12 col-lg-3 col-xl-2 mt-3">
+            <div class="logo-section">
               <div>
                 <img src="./img/0d3282405895e8ddeadc648b3d042146aa51c7b5.png" alt="logoo" style="width: 60px; height: 60px;" class="me-2">
               </div>
@@ -110,37 +110,37 @@
           </div>
       
           <!-- Search Section -->
-          <div class="col-8 col-sm-8 col-md-6 col-lg-6  ms-5">
-            <div class="input-group w-100 h-25 mt-4">
-              <input type="search" class="form-control border border-success-subtle" placeholder="search for items...">
-              <button class="btn btn-light dropdown-toggle border border-success-subtle" data-bs-toggle="dropdown" aria-expanded="false">
+          <div class="col-12 col-lg-6 col-xl-7 mt-3">
+            <div class="search-section">
+              <div class="search-input-group">
+                <input type="search" class="form-control border border-success-subtle" placeholder="Search for items...">
+                <button class="btn btn-light dropdown-toggle border border-success-subtle" data-bs-toggle="dropdown" aria-expanded="false">
                 All Categories
-              </button>
-              <ul class="dropdown-menu dropdown-menu-dark">
-                <li><a class="dropdown-item" href="#">category one</a></li>
-                <li><a class="dropdown-item" href="#">category two</a></li>
-              </ul>
-              <div class="input-group-append">
-                <a href="#" class="btn btn-danger" type="button">
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="#">Category One</a></li>
+                  <li><a class="dropdown-item" href="#">Category Two</a></li>
+                </ul>
+                <a href="#" class="btn btn-danger d-flex align-items-center justify-content-center" style="min-width: 50px;">
                     <i class="fa fa-search"></i>
-                  </a>
+                </a>
               </div>
             </div>
           </div>
       
           <!-- User Section -->
-          <div class="col-12 col-sm-6 col-md-12 col-lg-3 mt-3">
-            <div class="user my-4 d-flex align-items-center justify-content-center justify-content-lg-evenly flex-wrap">
+          <div class="col-12 col-lg-3 mt-3">
+            <div class="user-section">
               
-                <span class="d-inline-flex align-items-center gap-1 mb-2 mb-lg-0">
+                <span class="user-item">
                 <i class="bi bi-person me-2"></i>Account
               </span>
       
-              <span class="d-inline-flex align-items-center gap-1 mb-2 mb-lg-0">
+              <span class="user-item">
                 <i class="bi bi-heart me-2"></i>Wishlist
               </span>
       
-              <span class="d-inline-flex align-items-center gap-1">
+              <span class="user-item">
                 <i class="bi bi-cart me-2"></i>Cart
               </span>
             </div>
@@ -151,24 +151,23 @@
       </div>
 
       <!-- red nav -->
-    <div class="container-fluid   bg-danger justify-content-center">
-        <div class="container  p-2">
-            <div class="col-12 d-flex  align-items-center justify-content-between">
-                <p class="text-white fs-6 fw-bold ">Faq</p>
-                <p class="text-white fs-6 fw-medium">Home - Faq</p>
-            </div>
+    <div class="red-nav">
+        <div class="container">
+            <p class="text-white fs-6 fw-bold">FAQ</p>
+            <p class="text-white fs-6 fw-medium">Home - FAQ</p>
         </div>
     </div>
     
 
-    <div class="container-fluid p-5 mb-3">
-        <div class="row mt-5 justify-content-center align-items-center">
+    <div class="container-fluid faq-section">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
             <!-- Image -->
-            <div class="col-12 col-lg-6 mb-4 mb-lg-0">
-                <img class="w-100 rounded-1" src="./img/e66ae4b0aa3f5a2226d5f526f55db00e4f8d752c.jpg" alt="Image">
+            <div class="col-12 col-lg-6 mb-4 mb-lg-0 order-2 order-lg-1">
+                <img class="faq-image img-responsive" src="./img/e66ae4b0aa3f5a2226d5f526f55db00e4f8d752c.jpg" alt="FAQ Image">
             </div>
             <!-- Accordion -->
-            <div class="col-12 col-lg-6">
+            <div class="col-12 col-lg-6 order-1 order-lg-2">
                 <div class="accordion" id="faqAccordion">
                     <!-- Question 1 -->
                     <div class="accordion-item">
@@ -268,6 +267,7 @@
                     </div>
                 </div>
             </div>
+            </div>
         </div>
     </div>
     
@@ -283,86 +283,92 @@
           <div class="row gy-4">
       
             <!-- Logo and Description -->
-            <div class="col-md-4">
-                <div class="d-flex align-items-center mb-3">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="footer-section">
+                    <div class="footer-logo mb-3">
                   <img src="./img/0d3282405895e8ddeadc648b3d042146aa51c7b5.png" alt="Logo" class="rounded-3 me-2"  style="width: 40px; height: 40px;"/>
                   <div>
                     <h5 style="color: black; font-size: 18px;  font-weight: 700; line-height: 18.2px; letter-spacing: 0.48px;">Foodzy</h5>
                     <small style="color: #818181; font-size: 10px; font-weight: 600;">A Treasure of Tastes</small>
                   </div>
                 </div>
-                <p style="color: #7A7A7A; font-size: 14px;  font-weight: 400; line-height: 24.5px; letter-spacing: 0.48px;">
+                <p class="contact-info">
                   FoodTrove is the biggest market of grocery products. Get your daily needs from our store.
                 </p>
-                <p style="color: #777777; font-size: 14px;    font-weight: 400; line-height: 26px; letter-spacing: 0.48px;">
+                <div class="contact-info d-flex align-items-start mb-2">
                     <svg width="21" height="25" viewBox="0 0 21 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M7.52941 19.6364L11.6622 15.4868C12.4207 14.7395 12.9339 13.8583 13.2016 12.8432C13.4581 11.8504 13.4581 10.8577 13.2016 9.86489C12.9339 8.84981 12.4235 7.9658 11.6706 7.21286C10.9176 6.45992 10.0336 5.94959 9.01856 5.68188C8.02579 5.42532 7.03303 5.42532 6.04026 5.68188C5.02519 5.94959 4.14118 6.45992 3.38824 7.21286C2.63529 7.9658 2.12497 8.84981 1.85725 9.86489C1.6007 10.8577 1.6007 11.8504 1.85725 12.8432C2.12497 13.8583 2.63808 14.7395 3.3966 15.4868L7.52941 19.6364ZM7.52941 21.9956L2.20863 16.6748C1.23817 15.7155 0.585621 14.5777 0.25098 13.2615C-0.0836601 11.9899 -0.0836601 10.7182 0.25098 9.44659C0.585621 8.13033 1.23538 6.98977 2.20026 6.02489C3.16514 5.06001 4.30571 4.40467 5.62196 4.05887C6.89359 3.73539 8.16523 3.73539 9.43686 4.05887C10.7531 4.40467 11.8937 5.06001 12.8586 6.02489C13.8234 6.98977 14.4732 8.13033 14.8078 9.44659C15.1425 10.7182 15.1425 11.9899 14.8078 13.2615C14.4732 14.5777 13.8207 15.7155 12.8502 16.6748L7.52941 21.9956ZM7.52941 13.0272C7.83059 13.0272 8.10946 12.9519 8.36601 12.8014C8.62257 12.6508 8.82614 12.4472 8.97673 12.1906C9.12732 11.9341 9.20261 11.6552 9.20261 11.354C9.20261 11.0529 9.12732 10.774 8.97673 10.5174C8.82614 10.2609 8.62257 10.0573 8.36601 9.90672C8.10946 9.75613 7.83059 9.68083 7.52941 9.68083C7.22824 9.68083 6.94937 9.75613 6.69281 9.90672C6.43625 10.0573 6.23268 10.2609 6.08209 10.5174C5.9315 10.774 5.85621 11.0529 5.85621 11.354C5.85621 11.6552 5.9315 11.9341 6.08209 12.1906C6.23268 12.4472 6.43625 12.6508 6.69281 12.8014C6.94937 12.9519 7.22824 13.0272 7.52941 13.0272ZM7.52941 14.7004C6.92706 14.7004 6.36932 14.5499 5.85621 14.2487C5.34309 13.9475 4.93595 13.5404 4.63477 13.0272C4.33359 12.5141 4.18301 11.9536 4.18301 11.3457C4.18301 10.7377 4.33359 10.18 4.63477 9.67247C4.93595 9.16493 5.34309 8.76057 5.85621 8.4594C6.36932 8.15822 6.92706 8.00763 7.52941 8.00763C8.13176 8.00763 8.6895 8.15822 9.20261 8.4594C9.71573 8.76057 10.1229 9.16493 10.4241 9.67247C10.7252 10.18 10.8758 10.7377 10.8758 11.3457C10.8758 11.9536 10.7252 12.5141 10.4241 13.0272C10.1229 13.5404 9.71573 13.9475 9.20261 14.2487C8.6895 14.5499 8.13176 14.7004 7.52941 14.7004Z" fill="#F53E32"/>
                         </svg>
-                        51 Green St. Huntington ohaio beach ontario, NY<br/>11746 KY 4783, USA.
-                </p>
-                <p style="color: #777777; font-size: 14px;  font-weight: 400; line-height: 26px; letter-spacing: 0.48px;">
+                    <span>51 Green St. Huntington ohaio beach ontario, NY<br/>11746 KY 4783, USA.</span>
+                </div>
+                <div class="contact-info d-flex align-items-center mb-2">
                     <svg width="21" height="25" viewBox="0 0 21 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M17.5686 5.38063C17.8029 5.38063 18.0009 5.4615 18.1626 5.62324C18.3244 5.78499 18.4052 5.98298 18.4052 6.21723V19.6029C18.4052 19.8371 18.3244 20.0351 18.1626 20.1968C18.0009 20.3586 17.8029 20.4395 17.5686 20.4395H2.5098C2.27556 20.4395 2.07756 20.3586 1.91582 20.1968C1.75407 20.0351 1.6732 19.8371 1.6732 19.6029V18.7663H16.732V8.97801L10.0392 15.0015L1.6732 7.47213V6.21723C1.6732 5.98298 1.75407 5.78499 1.91582 5.62324C2.07756 5.4615 2.27556 5.38063 2.5098 5.38063H17.5686ZM6.69281 15.4198V17.093H0V15.4198H6.69281ZM4.18301 11.2368V12.91H0V11.2368H4.18301ZM16.3639 7.05383H3.71451L10.0392 12.7427L16.3639 7.05383Z" fill="#F53E32"/>
                         </svg>
-                        example@email.com
-                </p>
-                <p style="color: #777777; font-size: 12px;  font-weight: 400; line-height: 26px; letter-spacing: 0.48px;">
+                    <span>example@email.com</span>
+                </div>
+                <div class="contact-info d-flex align-items-center">
                     <svg width="21" height="25" viewBox="0 0 21 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M5.32078 11.8057C5.7112 12.4973 6.18806 13.1248 6.75137 13.6881C7.31468 14.2514 7.94213 14.7283 8.63373 15.1187L9.36993 14.0813C9.49264 13.9028 9.65717 13.7913 9.86353 13.7466C10.0699 13.702 10.2679 13.7299 10.4575 13.8303C11.6511 14.4884 12.9283 14.8677 14.2892 14.9681C14.5011 14.9904 14.6824 15.0796 14.8329 15.2358C14.9835 15.392 15.0588 15.5816 15.0588 15.8047V19.5359C15.0588 19.7479 14.9863 19.9347 14.8413 20.0964C14.6963 20.2582 14.5178 20.3502 14.3059 20.3725C13.8597 20.4171 13.4135 20.4395 12.9673 20.4395C11.2049 20.4395 9.52052 20.0992 7.91425 19.4188C6.36375 18.7607 4.99172 17.8348 3.79817 16.6413C2.60462 15.4477 1.67878 14.0757 1.02065 12.5252C0.340218 10.9189 0 9.23457 0 7.47213C0 7.02595 0.0223094 6.57976 0.0669281 6.13357C0.0892375 5.92163 0.181264 5.74316 0.343007 5.59815C0.504749 5.45314 0.69159 5.38063 0.903529 5.38063H4.63477C4.85786 5.38063 5.04749 5.45592 5.20366 5.60651C5.35983 5.7571 5.44906 5.93836 5.47137 6.1503C5.57176 7.51117 5.95102 8.78839 6.60915 9.98194C6.70954 10.1716 6.73743 10.3696 6.69281 10.5759C6.64819 10.7823 6.53664 10.9468 6.35817 11.0695L5.32078 11.8057ZM3.21255 11.2536L4.80209 10.1158C4.3559 9.14534 4.04915 8.12468 3.88183 7.05383H1.6732V7.47213C1.6732 9.00033 1.9688 10.4672 2.56 11.8727C3.12889 13.2224 3.93481 14.4187 4.97778 15.4617C6.02074 16.5046 7.21708 17.3106 8.5668 17.8795C9.97229 18.4707 11.4391 18.7663 12.9673 18.7663H13.3856V16.5576C12.3148 16.3903 11.2941 16.0835 10.3237 15.6374L9.18588 17.2269C8.72854 17.0484 8.28235 16.8365 7.84732 16.5911L7.79712 16.5744C6.98283 16.1059 6.24105 15.537 5.57176 14.8677C4.90248 14.1984 4.33359 13.4566 3.8651 12.6423L3.84837 12.5921C3.60296 12.1571 3.39102 11.7109 3.21255 11.2536Z" fill="#F53E32"/>
                         </svg>
-                        +91 123 4567890
-                </p>
+                    <span>+91 123 4567890</span>
+                </div>
+                </div>
               </div>
               
       
             <!-- Company Links -->
-            <div class="col-md-2">
-                <h6 style="color: black; font-size: 18px;  font-weight: 700; line-height: 23.4px; letter-spacing: 0.48px;">Company</h6>
+            <div class="col-6 col-md-3 col-lg-2">
+                <div class="footer-section">
+                    <h6>Company</h6>
                 <ul class="list-unstyled mt-3">
-                  <li style="margin-bottom: 15px;"><a href="#" class="text-decoration-none" style="color: #777777; font-size: 14px; font-weight: 400; line-height: 26px; letter-spacing: 0.48px;">About Us</a></li>
-                  <li style="margin-bottom: 15px;"><a href="#" class="text-decoration-none" style="color: #777777;">Delivery Information</a></li>
-                  <li style="margin-bottom: 15px;"><a href="#" class="text-decoration-none" style="color: #777777;">Privacy Policy</a></li>
-                  <li style="margin-bottom: 15px;"><a href="#" class="text-decoration-none" style="color: #777777;">Terms & Conditions</a></li>
-                  <li style="margin-bottom: 15px;"><a href="#" class="text-decoration-none" style="color: #777777;">Contact Us</a></li>
-                  <li><a href="#" class="text-decoration-none" style="color: #777777;">Support Center</a></li>
+                  <li><a href="#" class="text-decoration-none">About Us</a></li>
+                  <li><a href="#" class="text-decoration-none">Delivery Information</a></li>
+                  <li><a href="#" class="text-decoration-none">Privacy Policy</a></li>
+                  <li><a href="#" class="text-decoration-none">Terms & Conditions</a></li>
+                  <li><a href="#" class="text-decoration-none">Contact Us</a></li>
+                  <li><a href="#" class="text-decoration-none">Support Center</a></li>
                 </ul>
+                </div>
               </div>
               
       
             <!-- Category Links -->
-            <div class="col-md-2">
-              <h6 style="color: black; font-size: 18px;  font-weight: 700; line-height: 23.4px; letter-spacing: 0.48px;">Category</h6>
+            <div class="col-6 col-md-3 col-lg-2">
+                <div class="footer-section">
+                    <h6>Category</h6>
               <ul class="list-unstyled mt-3">
-                <li style="margin-bottom: 15px;"><a href="#" class="text-decoration-none" style="color: #777777;">Dairy & Bakery</a></li>
-                <li style="margin-bottom: 15px;"><a href="#" class="text-decoration-none" style="color: #777777;">Fruits & Vegetable</a></li>
-                <li style="margin-bottom: 15px;"><a href="#" class="text-decoration-none" style="color: #777777;">Snack & Spice</a></li>
-                <li style="margin-bottom: 15px;"><a href="#" class="text-decoration-none" style="color: #777777;">Juice & Drinks</a></li>
-                <li style="margin-bottom: 15px;"><a href="#" class="text-decoration-none" style="color: #777777;">Chicken & Meat</a></li>
-                <li style="margin-bottom: 15px;"><a href="#" class="text-decoration-none" style="color: #777777;">Fast Food</a></li>
+                <li><a href="#" class="text-decoration-none">Dairy & Bakery</a></li>
+                <li><a href="#" class="text-decoration-none">Fruits & Vegetable</a></li>
+                <li><a href="#" class="text-decoration-none">Snack & Spice</a></li>
+                <li><a href="#" class="text-decoration-none">Juice & Drinks</a></li>
+                <li><a href="#" class="text-decoration-none">Chicken & Meat</a></li>
+                <li><a href="#" class="text-decoration-none">Fast Food</a></li>
               </ul>
+                </div>
             </div>
       
             <!-- Subscribe Section -->
-            <div class="col-md-4">
-                <h6 style="color: black; font-size: 18px;  font-weight: 700; line-height: 23.4px; letter-spacing: 0.48px;">Subscribe Our Newsletter</h6>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="footer-section">
+                    <h6>Subscribe Our Newsletter</h6>
                 
-                <form class="mt-3 position-relative">
-                    <input type="email" class="form-control  rounded-1 pe-5" placeholder="Search here..." style="color: #7A7A7A;  font-size: 14px; position: relative;">
+                <form class="newsletter-form mt-3">
+                    <input type="email" class="form-control rounded-1 pe-5" placeholder="Enter your email..." style="color: #7A7A7A; font-size: 14px;">
                     
-                    <i class="fas fa-paper-plane" style="position: absolute; right: 15px; top: 50%; transform: translateY(-50%); color: black; cursor: pointer;"></i>
+                    <i class="fas fa-paper-plane"></i>
                   </form>
-                  <div class="d-flex flex-wrap gap-2 mt-4">
-                    <img src="./img/81a86639cae1f7c01550d7d6dc0bb2f4632bee29.jpg" class="rounded-1" alt="Gallery" style="width: 73px; height: 73px;">
-                    <img src="./img/988bdede94a2c74e04cee078f6a587949612ae98.jpg" class="rounded-1" alt="Gallery" style="width: 73px; height: 73px;">
-                    <img src="./img/54ed978bcb73544cf5d9ac0b1a31c0e488e4fd3e.jpg" class="rounded-1" alt="Gallery" style="width: 73px; height: 73px;">
-                    <img src="./img//ea3f9926014a5d72f6b0f486832b4229a0d3784a.jpg" class="rounded-1" alt="Gallery" style="width: 73px; height: 73px;">
-                    <!-- <img src="./2eda24cc8621b1f569188e79c7b097e422b05909.jpg" class="rounded-1" alt="Gallery" style="width: 73px; height: 73px;"> -->
-                </div>
+                  <div class="footer-gallery mt-4">
+                    <img src="./img/81a86639cae1f7c01550d7d6dc0bb2f4632bee29.jpg" class="rounded-1" alt="Gallery">
+                    <img src="./img/988bdede94a2c74e04cee078f6a587949612ae98.jpg" class="rounded-1" alt="Gallery">
+                    <img src="./img/54ed978bcb73544cf5d9ac0b1a31c0e488e4fd3e.jpg" class="rounded-1" alt="Gallery">
+                    <img src="./img/ea3f9926014a5d72f6b0f486832b4229a0d3784a.jpg" class="rounded-1" alt="Gallery">
+                  </div>
                 
                   
               
                 <!-- Social Icons -->
-                <div class="d-flex mt-3">
+                <div class="social-icons mt-3">
                   <a href="#" class="me-2 text-dark"><svg width="35" height="36" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect x="0.5" y="0.899902" width="34" height="34" rx="4.5" fill="white"/>
                     <rect x="0.5" y="0.899902" width="34" height="34" rx="4.5" stroke="#E1DFDF"/>
@@ -416,15 +422,16 @@
 </svg>
 </a>
                 </div>
+                </div>
               </div>
               
       
           </div>
-      <div class=" py-5">
+      <div class="py-3 py-md-4">
           <hr class="  border-success-subtle">
       
           <div class="text-center align-items-center">
-            <small style="color: black; font-size: 14px;    font-weight: 400; line-height: 16.8px; letter-spacing: 0.48px; align-items: center;">
+            <small class="text-responsive" style="color: black; font-weight: 400; line-height: 16.8px; letter-spacing: 0.48px;">
               &copy; 2025 <span style="color: #F53E32;">Foodzy</span>, All rights reserved.
             </small>
           </div>
